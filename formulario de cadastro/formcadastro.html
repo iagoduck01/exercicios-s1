@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>formularios de cadastro</title>
+
+  <meta name="description" content="exercicio formularios de cadastro" />
+
+  <link rel="icon" href="https://kenzie.com.br/favicon.jpeg" />
+
+</head>
+
+<body>
+    <form>
+
+      <label for="nome">Nome</label>
+        <input required name="nome" id="nome" placeholder="Digite seu nome aqui..." type="text">       
+
+        <label for="email">E-mail</label>
+        <input required name="email" id="email" placeholder="Digite seu e-mail aqui..." type="text">
+
+        <label for="textarea">Descrição</label>
+        <textarea 
+        name="textarea" 
+        id="textarea" 
+        cols="30" 
+        rows="10"
+        placeholder="Fale mais sobre você..."
+      
+      ></textarea>
+
+      <label for="madulo">Módulo</label>
+      <select required name="modulo" id="modulo">
+
+        <option value="">Escolher módulo</option>
+        <option value="m1">M1 T14</option>
+        <option value="m2">M2 T14</option>
+        <option value="m3">M3 T14</option>
+      </select>
+
+      <label for="pass">Senha</label>
+      <input required id="pass" placeholder="Digite sua senha..." type="password">
+
+      <label for="pass2">Confirmar senha</label>
+      <input required id="pass2" placeholder="Confirme sua senha..." type="password">
+
+      <p>Deseja receber atualizações em seu e-mail?</p>
+
+      <label for="sim">Sim</label>
+      <input required id="sim" name="novidades" value="sim" type="radio">
+
+      <label for="nao">Não</label>
+      <input required id="nao" name="novidades" value="nao" type="radio">
+        
+ <button type="submit">Cadastrar</button>
+    </form>
+</body>
+
+</html>
