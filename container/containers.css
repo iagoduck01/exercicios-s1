@@ -105,3 +105,10 @@ body {
     font-size: 18px;
     line-height: 28px;
 }
+.last-post main a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px; 
+    color: #4572E8;
+    text-decoration: none;
+}
