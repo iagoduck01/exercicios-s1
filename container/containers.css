@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    background-color: #4572E8;
+    padding: 20px 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1036px;
+    margin: 0 auto;
+}
+
+.pesquisa form {
+    display: flex;
+    gap: 10px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.pesquisa form input {
+    width: 85%;
+    height: 60px;
+    background-color: #F5F5F5;
+    padding-left: 16px;
+    border: solid #f5f5f5;
+}
+
+.pesquisa form button {
+    width: 15%;
+    height: 60px;
+    background-color: #4572E8;
+    color: #ffffff;
+    border: solid #4572E8
+}
+
+.img-1 {
+    margin-bottom: 40px;
+}
+
+.post {
+    margin-bottom: 45px;
+}
+
+.tittle-1 {
+    margin-bottom: 40px;
+    font-size: 42px;
+}
+
+.para-1 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 60px;
+}
+
+.para-2 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 45px;
+}
+
+.posts-finais {
+    margin-top: 45px;
+    display: flex;
+}
+.last-post{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 35px;    
+    margin-left: 0px;
+    
+}
+.last-post main{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.last-post main p{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+.last-post main h2{
+    font-size: 18px;
+    line-height: 28px;
+}
